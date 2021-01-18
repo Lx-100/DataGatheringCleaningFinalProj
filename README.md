@@ -4,13 +4,11 @@ DataGatheringCleaningFinalProj
 This repository contains the final project for Coursera's online module Data Gathering and Cleaning.
 It contains the code run_analysis.R, which does the following functions
 
-#   1. Merges the training and test sets to create one data set
-#   2. Extracts only the measurements on the mean and standard deviation 
-#      for each measurement
-#   3. Uses descriptive activity names to name the activities in the dataset
-#   4. Appropriately labels the data set with descriptive variable names
-#   5. From the data set in step 4, creates a second, independent tidy dataset
-#      with the average of each variable for each activity and each subject
+ a. Merges the training and test sets to create one data set
+ b. Extracts only the measurements on the mean and standard deviation for each measurement
+ c. Uses descriptive activity names to name the activities in the dataset
+ d. Appropriately labels the data set with descriptive variable names
+ e. From the data set in step 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject
 
 2. Data set:
 The data set run_analysis.R works with is the Human Activity Recognition Using Smartphone Dataset (Version 1.0, accessed 18-01-2021). 

@@ -1,0 +1,85 @@
+Data Dictionary -- UCI HAR Dataset
+
+1. Introduction
+This is the Code Book for output.txt, which contains the cleaned data of the Human Activity Recognition Using Smartphones Data set after running run_analysis.R. The information and download link of the Data set can be found here: https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+2. Variables
+
+"activity"  -- activities measured
+               there are six activities in total:
+               Walking
+               Walking_up
+               Walking_down
+               Sitting
+               Standing
+               Laying
+               
+"subject" -- 30 subjects/individuals are measured
+             there are coded as nos. 1-30
+
+Below are the col.s containing the average of the following variable, i.e. "avg_tBodyAcc.meanZ" is the average of the variable tBodyAcc.meanZ in the Human Activity Recognition Using Smartphones Data set. The detailed information on each of these variables can be found in the features_info.txt within the data set.
+
+"avg_tBodyAcc.meanZ"
+"avg_tBodyAcc.stdX" 
+"avg_tBodyAcc.stdY" 
+"avg_tBodyAcc.stdZ" 
+"avg_tGravityAcc.meanX" 
+"avg_tGravityAcc.meanY" 
+"avg_tGravityAcc.meanZ" 
+"avg_tGravityAcc.stdX" 
+"avg_tGravityAcc.stdY" 
+"avg_tGravityAcc.stdZ" 
+"avg_tBodyAccJerk.meanX" 
+"avg_tBodyAccJerk.meanY" 
+"avg_tBodyAccJerk.meanZ" 
+"avg_tBodyAccJerk.stdX" 
+"avg_tBodyAccJerk.stdY" 
+"avg_tBodyAccJerk.stdZ" 
+"avg_tBodyGyro.meanX" 
+"avg_tBodyGyro.meanY" 
+"avg_tBodyGyro.meanZ" 
+"avg_tBodyGyro.stdX" 
+"avg_tBodyGyro.stdY" 
+"avg_tBodyGyro.stdZ" 
+"avg_tBodyGyroJerk.meanX" 
+"avg_tBodyGyroJerk.meanY" 
+"avg_tBodyGyroJerk.meanZ" 
+"avg_tBodyGyroJerk.stdX" 
+"avg_tBodyGyroJerk.stdY" 
+"avg_tBodyGyroJerk.stdZ" 
+"avg_tBodyAccMag.mean" 
+"avg_tBodyAccMag.std" 
+"avg_tGravityAccMag.mean" 
+"avg_tGravityAccMag.std" 
+"avg_tBodyAccJerkMag.mean" 
+"avg_tBodyAccJerkMag.std" 
+"avg_tBodyGyroMag.mean" 
+"avg_tBodyGyroMag.std" 
+"avg_tBodyGyroJerkMag.mean" 
+"avg_tBodyGyroJerkMag.std" 
+"avg_fBodyAcc.meanX" 
+"avg_fBodyAcc.meanY" 
+"avg_fBodyAcc.meanZ" 
+"avg_fBodyAcc.stdX" 
+"avg_fBodyAcc.stdY" 
+"avg_fBodyAcc.stdZ" 
+"avg_fBodyAccJerk.meanX" 
+"avg_fBodyAccJerk.meanY" 
+"avg_fBodyAccJerk.meanZ" 
+"avg_fBodyAccJerk.stdX" 
+"avg_fBodyAccJerk.stdY" 
+"avg_fBodyAccJerk.stdZ" 
+"avg_fBodyGyro.meanX" 
+"avg_fBodyGyro.meanY" 
+"avg_fBodyGyro.meanZ" 
+"avg_fBodyGyro.stdX" 
+"avg_fBodyGyro.stdY" 
+"avg_fBodyGyro.stdZ" 
+"avg_fBodyAccMag.mean" 
+"avg_fBodyAccMag.std" 
+"avg_fBodyBodyAccJerkMag.mean" 
+"avg_fBodyBodyAccJerkMag.std" 
+"avg_fBodyBodyGyroMag.mean" 
+"avg_fBodyBodyGyroMag.std" 
+"avg_fBodyBodyGyroJerkMag.mean" 
+"avg_fBodyBodyGyroJerkMag.std"
